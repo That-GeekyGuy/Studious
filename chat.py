@@ -7,6 +7,7 @@ from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 import tkinter as tk
 import ssl
+cache={}
 ssl._create_default_https_context = ssl._create_unverified_context
 def get_wolframalpha_answer(question, app_id):
 
@@ -65,10 +66,10 @@ def option1():
             if answer == "An error occurred: ":
                 sentence = omit_words(sentence, words_to_omit)
                 result = wikipedia.summary(sentence +" (maths)", sentences=2)
-               
+
                 print(result)
             else:
-                
+
                 print(answer)
         elif o == "Chemistry" or o == "chemistry" or o == "2":
             sentence = input("You: ")
@@ -77,9 +78,9 @@ def option1():
                 sentence = omit_words(sentence, words_to_omit)
                 result = wikipedia.summary(sentence + " (chemistry)", sentences=2)
                 print(result)
-                
+
             else:
-               
+
                 print(answer)
         elif o== "Physics" or o== "physics" or o== "3":
             sentence = input("You: ")
@@ -88,9 +89,9 @@ def option1():
                 sentence = omit_words(sentence, words_to_omit)
                 result = wikipedia.summary(sentence + " (physics)", sentences=2)
                 print(result)
-                
+
             else:
-                
+
                 print(answer)
         elif o == "Misc"or "misc" or "Miscellaneous" or o == "miscellaneous" or o == "5":
             try:
@@ -100,9 +101,9 @@ def option1():
                     sentence = omit_words(sentence, words_to_omit)
                     result = wikipedia.summary(sentence, sentences=2)
                     print(result)
-                    
+
                 else:
-                    
+
                     print(answer)
             except:
                 print("Sorry can't find the answer ಥ_ಥ'")
