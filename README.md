@@ -1,8 +1,8 @@
 # Studious
 
-this is a simple chat bot
+This is a Simple Chat Bot
 
-requirnments:-
+Requirnments:-
 python
 ```
 pip install numpy
@@ -11,3 +11,5 @@ pip install NeuralNet
 pip install wiikipedia
 pip install wolframalpha
 ```
+
+Please remember to download all the files in thw project folder or where your editor soves it by default
