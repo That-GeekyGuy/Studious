@@ -3,7 +3,7 @@
 This is a Simple Chat Bot
 
 Requirnments:-
-Python/n
+Python 
 Also pls install pytorch from :- https://pytorch.org/get-started/locally/
 ```
 pip install numpy
