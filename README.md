@@ -3,8 +3,8 @@
 This is a Simple Chat Bot
 
 Requirnments:-
-python
-also pls install pytorch from :- https://pytorch.org/get-started/locally/
+Python/n
+Also pls install pytorch from :- https://pytorch.org/get-started/locally/
 ```
 pip install numpy
 pip install nltk
