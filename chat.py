@@ -20,7 +20,7 @@ def get_wolframalpha_answer(question, app_id):
     except Exception as e:
         return f"An error occurred: {e}"
 
-app_id = 'RUTL64-6QQXG335RP'
+app_id = 'app_id_here'
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 with open('intents.json', 'r') as json_data:
