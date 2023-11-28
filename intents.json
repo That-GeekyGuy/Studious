@@ -12,9 +12,9 @@
                         "Hya there"
                   ],
                   "responses": [
-                        "Hi human, please tell me your GeniSys user",
-                        "Hello human, please tell me your GeniSys user",
-                        "Hola human, please tell me your GeniSys user"
+                        "Hi human",
+                        "Hello human",
+                        "Hola human"
                   ]
 
                   
@@ -32,11 +32,11 @@
                         "It is Bella"
                   ],
                   "responses": [
-                        "Great! Hi <HUMAN>! How can I help?",
-                        "Good! Hi <HUMAN>, how can I help you?",
-                        "Cool! Hello <HUMAN>, what can I do for you?",
-                        "OK! Hola <HUMAN>, how can I help you?",
-                        "OK! hi <HUMAN>, what can I do for you?"
+                        "Great! Hi HUMAN! How can I help?",
+                        "Good! Hi HUMAN, how can I help you?",
+                        "Cool! Hello HUMAN, what can I do for you?",
+                        "OK! Hola HUMAN, how can I help you?",
+                        "OK! hi HUMAN, what can I do for you?"
                   ]
 
 
