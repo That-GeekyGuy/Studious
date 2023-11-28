@@ -1,7 +1,0 @@
-pytorch
-nltk
-wikipedia
-wolframalpha
-streamlit
-streamlit_option_menu
-streamlit-extras
