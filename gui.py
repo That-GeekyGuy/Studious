@@ -1,6 +1,5 @@
 import streamlit as st
 import bot
-from streamlit_extras.app_logo import add_logo 
 
 
 def intro():
