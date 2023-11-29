@@ -1,3 +1,7 @@
+--extra-index-url https://download.pytorch.org/whl/cu116
+torch
+torchvision
+torchaudio
 altair==5.2.0
 anyio==4.0.0
 argon2-cffi==23.1.0
